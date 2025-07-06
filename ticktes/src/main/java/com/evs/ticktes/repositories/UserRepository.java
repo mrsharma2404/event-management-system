@@ -1,6 +1,6 @@
 package com.evs.ticktes.repositories;
 
-import com.evs.ticktes.domain.User;
+import com.evs.ticktes.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

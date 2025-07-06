@@ -1,6 +1,6 @@
 package com.evs.ticktes.filters;
 
-import com.evs.ticktes.domain.User;
+import com.evs.ticktes.domain.entities.User;
 import com.evs.ticktes.repositories.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

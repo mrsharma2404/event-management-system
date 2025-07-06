@@ -1,4 +1,4 @@
-package com.evs.ticktes.domain;
+package com.evs.ticktes.domain.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
