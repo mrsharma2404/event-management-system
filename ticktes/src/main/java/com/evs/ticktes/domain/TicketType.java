@@ -35,6 +35,9 @@ public class TicketType {
     @Column(name = "total_available")
     private Integer totalAvailable;
 
+    @Column(name = "description")
+    private String description;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "event_id")
     private Event event;
@@ -48,7 +51,7 @@ public class TicketType {
 
     @LastModifiedDate
     @Column(name = "updated_at", nullable = false, updatable = true)
-    private  LocalDateTime updatedAt;
+    private LocalDateTime updatedAt;
 
     @Override
     public boolean equals(Object o) {
